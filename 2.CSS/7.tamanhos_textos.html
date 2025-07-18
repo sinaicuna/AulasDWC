@@ -1,0 +1,61 @@
+<!--
+
+    px -> Tamanho fixo
+    % -> Tamanho relativo
+    em -> Tamanho relativo ao container pai
+
+    16px -> Tamanho padrão nos browsers*/
+
+-->
+
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <title>Tamanho de Textos</title>
+        <meta charset="UTF-8">
+
+        <style type="text/css">
+
+            .padrao{
+
+                font-size:16px;
+
+            }
+
+            .percentual{
+                font-size:200%
+            }
+
+            div{
+                font-size:60px;
+            }
+
+            .texto{
+                font-size:2em;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <p class="padrao">Conteudo</p>
+
+        <p class="percentual"> 
+            Este texto é 200%, que corresponde a 
+            2x o tamanho padrão: 100% é 16px,
+            e 200% é 32px.
+        </p>
+
+        <div>
+            <p class="texto">Conteudo 1</p>
+            <p>Conteudo 2</p>
+        </div>
+
+    </body>
+
+</html>
